@@ -1,0 +1,10 @@
+POST
+http://127.0.0.1:8000/polls/api/question/
+{
+    "Question":"What's your favourite color?"
+    "OptionVote":{
+        "Blue":"1",
+        "Black":"2"
+        }
+    "Tags":["color"]
+}
